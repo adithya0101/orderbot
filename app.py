@@ -174,6 +174,17 @@ class WhatsAppBot:
                 "• Type 'cart' to view your cart\n"
                 "• Type 'checkout' to place order")
 bot = WhatsAppBot()
+@app.route('/')
+def home():
+    return '''
+    <h1>Welcome to the WhatsApp Order Bot!</h1>
+    <p>This is a demo portfolio project for WhatsApp-based restaurant ordering using Flask and Twilio.</p>
+    <ul>
+        <li>To test the WhatsApp bot, message the Twilio sandbox number after joining the sandbox.</li>
+        <li>Admin dashboard: <a href="/admin/login">/admin/login</a></li>
+    </ul>
+    <p>See the README for setup and testing instructions.</p>
+    '''
 @app.route('/webhook', methods=['POST'])
 def webhook():
     try:
