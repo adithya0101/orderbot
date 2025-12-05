@@ -1,4 +1,4 @@
-# 🤖 OrderBot - AI-Powered Restaurant Order Management System
+#OrderBot - AI-Powered Restaurant Order Management System
 
 An intelligent restaurant order management system that combines conversational AI with efficient order processing and management capabilities. OrderBot streamlines the ordering process through natural language interactions while providing comprehensive admin tools for restaurant operations.
 
@@ -288,3 +288,4 @@ For support, issues, or feature requests, please open an issue on the GitHub rep
 ---
 
 **Note:** This project is under active development. Features and documentation may change. 
+
