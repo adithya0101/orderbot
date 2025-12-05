@@ -1,34 +1,34 @@
-#OrderBot - AI-Powered Restaurant Order Management System
+# OrderBot - AI-Powered Restaurant Order Management System
 
 An intelligent restaurant order management system that combines conversational AI with efficient order processing and management capabilities. OrderBot streamlines the ordering process through natural language interactions while providing comprehensive admin tools for restaurant operations.
 
-## ✨ Features
+##  Features
 
-### 🗣️ Conversational Ordering
+###  Conversational Ordering
 - Natural language processing for customer orders
 - Context-aware conversation flow
 - Menu item recommendations
 - Order confirmation and modifications
 
-### 📊 Admin Dashboard
+###  Admin Dashboard
 - Real-time order monitoring
 - Customer order history
 - Analytics and reporting
 - Menu management interface
 
-### 🔌 RESTful API
+###  RESTful API
 - Comprehensive API endpoints for order management
 - Secure authentication system
 - Integration-friendly architecture
 - RESTful design principles
 
-### 💾 Database Management
+###  Database Management
 - SQLite database for order persistence
 - Efficient data storage and retrieval
 - Order history tracking
 - Customer data management
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 orderbot/
@@ -51,7 +51,7 @@ orderbot/
 └── Procfile             Heroku deployment configuration
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ python app.py
 
 The application will be available at `http://localhost:5000`
 
-## 🐳 Docker Deployment
+##  Docker Deployment
 
 ### Using Docker Compose
 
@@ -121,7 +121,7 @@ docker build -t orderbot .
 docker run -p 5000:5000 orderbot
 ```
 
-## ☁️ Cloud Deployment
+##  Cloud Deployment
 
 ### Heroku
 
@@ -141,7 +141,7 @@ heroku create your-app-name
 git push heroku main
 ```
 
-## 📝 Configuration
+##  Configuration
 
 Edit the `.env` file or set environment variables:
 
@@ -162,7 +162,7 @@ NLP_MODEL=your-model-name
 CONFIDENCE_THRESHOLD=0.85
 ```
 
-## 🔧 API Documentation
+##  API Documentation
 
 ### Authentication
 All API requests require authentication via API key:
@@ -190,7 +190,7 @@ Authorization: Bearer YOUR_API_KEY
 
 For detailed API documentation, visit `/docs` endpoint when the server is running.
 
-## 🧪 Testing
+##  Testing
 
 Run the test suite:
 ```bash
@@ -231,7 +231,7 @@ black .
 flake8 .
 ```
 
-## 📊 Features in Detail
+##  Features in Detail
 
 ### Conversational AI
 The bot uses natural language processing to understand customer orders, handle modifications, and provide recommendations based on menu availability and customer preferences.
@@ -242,7 +242,7 @@ Comprehensive dashboard for restaurant staff to monitor orders, manage menu item
 ### Order Management
 Complete order lifecycle management from creation to fulfillment, including status tracking, modification handling, and customer notifications.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -254,27 +254,27 @@ Contributions are welcome! Please follow these steps:
 
 Please ensure your code follows the project's coding standards and includes appropriate tests.
 
-## 📄 License
+##  License
 
 This project is licensed under the terms specified in the LICENSE file.
 
-## 👤 Author
+##  Author
 
 **Adithya**
 - GitHub: [@adithya0101](https://github.com/adithya0101)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Natural Language Processing libraries used for conversational AI
 - Flask framework and its ecosystem
 - SQLite for reliable data persistence
 - All contributors and users of this project
 
-## 📧 Support
+##  Support
 
 For support, issues, or feature requests, please open an issue on the GitHub repository.
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Multi-language support
 - [ ] Voice ordering integration
@@ -288,4 +288,5 @@ For support, issues, or feature requests, please open an issue on the GitHub rep
 ---
 
 **Note:** This project is under active development. Features and documentation may change. 
+
 
