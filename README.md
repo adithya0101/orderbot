@@ -99,8 +99,6 @@ The application will be available at `http://localhost:5000`
 
 ##  Docker Deployment
 
-### Using Docker Compose
-
 1. Build and start containers:
 ```bash
 docker-compose up -d
@@ -124,14 +122,10 @@ docker run -p 5000:5000 orderbot
 ##  Cloud Deployment
 
 ### Heroku
-
-1. Install Heroku CLI
-2. Login to Heroku:
 ```bash
 heroku login
 ```
 
-3. Create a new Heroku app:
 ```bash
 heroku create your-app-name
 ```
@@ -142,9 +136,6 @@ git push heroku main
 ```
 
 ##  Configuration
-
-Edit the `.env` file or set environment variables:
-
 ```env
 # Application Settings
 FLASK_APP=app.py
@@ -241,49 +232,6 @@ Comprehensive dashboard for restaurant staff to monitor orders, manage menu item
 
 ### Order Management
 Complete order lifecycle management from creation to fulfillment, including status tracking, modification handling, and customer notifications.
-
-##  Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Please ensure your code follows the project's coding standards and includes appropriate tests.
-
-##  License
-
-This project is licensed under the terms specified in the LICENSE file.
-
-##  Author
-
-**Adithya**
-- GitHub: [@adithya0101](https://github.com/adithya0101)
-
-##  Acknowledgments
-
-- Natural Language Processing libraries used for conversational AI
-- Flask framework and its ecosystem
-- SQLite for reliable data persistence
-- All contributors and users of this project
-
-##  Support
-
-For support, issues, or feature requests, please open an issue on the GitHub repository.
-
-##  Roadmap
-
-- [ ] Multi-language support
-- [ ] Voice ordering integration
-- [ ] Payment gateway integration
-- [ ] Mobile app development
-- [ ] Advanced analytics dashboard
-- [ ] Inventory management system
-- [ ] Customer loyalty program
-- [ ] Third-party delivery service integration
 
 ---
 
