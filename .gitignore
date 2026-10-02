@@ -178,3 +178,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml.env
+restaurant_orders.db
+*.db
